@@ -7,12 +7,12 @@ forms, or third-party assets.
 ## Publish with GitHub Pages
 
 1. Create a public GitHub repository named `twistnlink-privacy` under the
-   `AnthonyQuattrochi` account.
+   `Junito34` account.
 2. Push this directory to the repository's `main` branch.
 3. In **Settings → Pages**, choose **Deploy from a branch**, then select
    **main** and **/(root)**.
 4. The expected public URL is:
-   `https://anthonyquattrochi.github.io/twistnlink-privacy/`
+   `https://junito34.github.io/twistnlink-privacy/`
 
 ## Before publishing
 
