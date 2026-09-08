@@ -17,7 +17,7 @@ forms, or third-party assets.
 ## Before publishing
 
 - Confirm that the Google Play developer name is accurately represented by
-  “Anthony Quattrochi / Junito”. Google requires the app or the developer entity
+  “Junito”. Google requires the app or the developer entity
   shown on the store listing to be named in the privacy policy.
 - If a dedicated support email exists, replace the GitHub Issues contact link
   with that email address. A public support address is preferable for private
