@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#020817">
+  <meta name="description" content="Politique de confidentialité de TwistNLink / TwistNLink Privacy Policy">
+  <title>TwistNLink — Politique de confidentialité</title>
+  <style>
+    :root {
+      --background: #020817;
+      --panel: rgba(5, 22, 47, .88);
+      --panel-soft: rgba(8, 34, 64, .62);
+      --line: rgba(39, 210, 255, .28);
+      --cyan: #36dcff;
+      --blue: #2584ff;
+      --text: #ecf8ff;
+      --muted: #a9c3d7;
+      --max-width: 920px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 50% -10%, rgba(22, 135, 255, .22), transparent 34rem),
+        linear-gradient(180deg, #030b1c 0%, var(--background) 70%);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    a { color: var(--cyan); }
+    a:hover { color: #a9f3ff; }
+
+    .shell {
+      width: min(calc(100% - 32px), var(--max-width));
+      margin: 0 auto;
+      padding: 36px 0 64px;
+    }
+
+    .hero,
+    .policy {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      box-shadow: 0 24px 70px rgba(0, 0, 0, .35), inset 0 1px rgba(255, 255, 255, .04);
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 42px clamp(24px, 5vw, 54px);
+      border-radius: 22px 22px 8px 8px;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, var(--cyan), var(--blue), transparent);
+      box-shadow: 0 0 24px var(--cyan);
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--cyan);
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 7vw, 4rem);
+      line-height: 1;
+      letter-spacing: -.045em;
+    }
+
+    .subtitle {
+      max-width: 680px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    .pill {
+      padding: 7px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: #cfeeff;
+      background: rgba(13, 76, 126, .28);
+      font-size: .82rem;
+    }
+
+    .language-nav {
+      display: flex;
+      gap: 12px;
+      padding: 18px 0;
+    }
+
+    .language-nav a {
+      flex: 1;
+      padding: 12px 18px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      color: var(--text);
+      background: var(--panel-soft);
+      font-weight: 750;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .language-nav a:hover {
+      border-color: rgba(54, 220, 255, .7);
+      background: rgba(15, 80, 132, .5);
+    }
+
+    .policy {
+      margin-bottom: 22px;
+      padding: clamp(24px, 5vw, 52px);
+      border-radius: 8px 8px 22px 22px;
+    }
+
+    .policy + .policy { border-radius: 22px; }
+
+    h2 {
+      margin: 0 0 26px;
+      color: var(--cyan);
+      font-size: clamp(1.55rem, 4vw, 2.25rem);
+      line-height: 1.2;
+    }
+
+    h3 {
+      margin: 34px 0 10px;
+      color: #f5fbff;
+      font-size: 1.15rem;
+    }
+
+    p, li { color: #d2e4f0; }
+    ul { padding-left: 1.35rem; }
+    li + li { margin-top: 8px; }
+
+    .notice {
+      margin: 24px 0;
+      padding: 16px 18px;
+      border-left: 3px solid var(--cyan);
+      border-radius: 4px 10px 10px 4px;
+      background: rgba(25, 111, 167, .18);
+    }
+
+    footer {
+      padding: 12px 6px 0;
+      color: #7492a8;
+      font-size: .84rem;
+      text-align: center;
+    }
+
+    @media (max-width: 560px) {
+      .shell { width: min(calc(100% - 20px), var(--max-width)); padding-top: 10px; }
+      .hero { padding-top: 34px; }
+      .language-nav { gap: 8px; }
+      .language-nav a { padding-inline: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <p class="eyebrow">TwistNLink</p>
+      <h1>Vos données,<br>sans zone floue.</h1>
+      <p class="subtitle">
+        Cette page explique de façon simple quelles données sont utilisées par le jeu,
+        pourquoi elles le sont et quels choix restent entre vos mains.
+      </p>
+      <div class="meta" aria-label="Informations principales">
+        <span class="pill">Application Android</span>
+        <span class="pill">com.junito.twistnlink</span>
+        <span class="pill">Mise à jour : 8 septembre 2026</span>
+      </div>
+    </header>
+
+    <nav class="language-nav" aria-label="Langues">
+      <a href="#fr">Version française</a>
+      <a href="#en" lang="en">English version</a>
+    </nav>
+
+    <article class="policy" id="fr">
+      <h2>Politique de confidentialité</h2>
+
+      <p>
+        TwistNLink est un jeu mobile édité par <strong>Anthony Quattrochi, sous le nom
+        Junito</strong> (ci-après « nous »). La présente politique s’applique à la version
+        Android de TwistNLink.
+      </p>
+
+      <div class="notice">
+        Le jeu ne nous transmet pas votre nom, votre adresse électronique, vos contacts,
+        vos photos ou votre position GPS. La progression de jeu est enregistrée localement
+        sur votre appareil. Des prestataires tiers peuvent toutefois traiter certaines
+        données techniques pour diffuser des publicités, recueillir vos choix de
+        confidentialité et gérer les achats.
+      </div>
+
+      <h3>1. Données enregistrées localement</h3>
+      <p>TwistNLink conserve sur votre appareil les informations nécessaires à son fonctionnement :</p>
+      <ul>
+        <li>progression, niveaux, scores, statistiques de jeu et tutoriel ;</li>
+        <li>énergie, pièces, gemmes, tickets, récompenses et avantages achetés ;</li>
+        <li>préférences de langue, son, musique et vibrations ;</li>
+        <li>état des achats et identifiants techniques de transaction nécessaires pour éviter d’accorder deux fois un même achat ;</li>
+        <li>choix de confidentialité et de personnalisation publicitaire.</li>
+      </ul>
+      <p>
+        Ces données de jeu ne sont pas envoyées à un serveur exploité par Junito. Elles restent
+        sur l’appareil jusqu’à ce que vous effaciez les données de l’application ou la désinstalliez.
+      </p>
+
+      <h3>2. Publicités et consentement</h3>
+      <p>
+        Le jeu utilise <strong>Unity LevelPlay</strong> pour afficher des publicités
+        interstitielles et des vidéos récompensées. Le réseau actuellement intégré est
+        <strong>Unity Ads</strong>. Selon votre région et vos choix, les publicités peuvent être
+        personnalisées ou non personnalisées.
+      </p>
+      <p>Ces services publicitaires peuvent notamment traiter :</p>
+      <ul>
+        <li>l’adresse IP et une localisation approximative déduite de celle-ci ;</li>
+        <li>l’identifiant publicitaire Android et d’autres identifiants liés à l’appareil ou à l’application ;</li>
+        <li>le modèle de l’appareil, le système d’exploitation, la langue, le pays et la version de l’application ;</li>
+        <li>les affichages, clics, vidéos terminées et autres interactions avec les publicités ;</li>
+        <li>des données de performance, de sécurité, de limitation de fréquence et de prévention de la fraude.</li>
+      </ul>
+      <p>
+        Google User Messaging Platform (UMP) est utilisé comme plateforme de gestion du
+        consentement. Lorsque la réglementation l’exige, un écran vous permet d’accepter,
+        de refuser ou de gérer les finalités et partenaires. Un refus de personnalisation
+        n’empêche pas nécessairement l’affichage de publicités contextuelles ou non
+        personnalisées, qui peuvent encore utiliser des données techniques indispensables.
+        Vous pouvez rouvrir ces choix depuis les paramètres du jeu.
+      </p>
+
+      <h3>3. Achats intégrés</h3>
+      <p>
+        Les achats sont traités par <strong>Google Play</strong>. Nous ne recevons ni votre
+        numéro de carte bancaire ni vos coordonnées de paiement. Le jeu reçoit uniquement
+        les informations techniques nécessaires pour valider et restaurer un achat, telles
+        que le produit acheté, l’état de la transaction, un justificatif d’achat et un
+        identifiant de transaction.
+      </p>
+
+      <h3>4. Analytics et suivi propriétaire</h3>
+      <p>
+        La version actuelle de TwistNLink n’envoie pas d’événements d’analytics de jeu à un
+        serveur exploité par Junito. Les prestataires publicitaires peuvent néanmoins mesurer
+        le fonctionnement et les performances de leurs propres services comme décrit plus haut.
+      </p>
+
+      <h3>5. Partage, vente et finalités</h3>
+      <p>
+        Nous ne vendons pas directement vos données personnelles. Les données techniques
+        peuvent être transmises aux prestataires cités ci-dessous et à leurs partenaires aux
+        seules fins de diffusion et mesure publicitaire, prévention de la fraude, gestion du
+        consentement et traitement des achats. Lorsque la loi l’exige, ce traitement dépend
+        de vos choix de consentement.
+      </p>
+
+      <h3>6. Conservation et suppression</h3>
+      <p>
+        Vous pouvez supprimer les données locales de TwistNLink depuis les réglages Android
+        (« Applications » → « TwistNLink » → « Stockage » → « Effacer les données ») ou en
+        désinstallant l’application. Les prestataires tiers appliquent leurs propres durées de
+        conservation et procédures de suppression. Pour exercer vos droits auprès d’eux,
+        consultez leurs politiques ci-dessous.
+      </p>
+
+      <h3>7. Vos droits et vos choix</h3>
+      <p>
+        Selon votre pays, vous pouvez disposer de droits d’accès, de rectification,
+        d’effacement, d’opposition, de limitation ou de retrait du consentement. Les choix
+        publicitaires peuvent être revus dans les paramètres de TwistNLink. Vous pouvez aussi
+        réinitialiser ou supprimer l’identifiant publicitaire depuis les paramètres de
+        confidentialité Android.
+      </p>
+
+      <h3>8. Enfants</h3>
+      <p>
+        TwistNLink ne demande pas volontairement le nom, l’adresse électronique, la date de
+        naissance ou les coordonnées d’un enfant. Si vous pensez qu’un enfant nous a transmis
+        des données personnelles par erreur, contactez-nous afin que nous examinions la demande.
+      </p>
+
+      <h3>9. Prestataires et politiques applicables</h3>
+      <ul>
+        <li><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" rel="noopener noreferrer">Unity — Politique de confidentialité des joueurs et utilisateurs d’applications</a></li>
+        <li><a href="https://unity.com/legal/cookie-policy" rel="noopener noreferrer">Unity — Politique relative aux technologies publicitaires</a></li>
+        <li><a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google — Règles de confidentialité</a></li>
+        <li><a href="https://support.google.com/googleplay/answer/9037938" rel="noopener noreferrer">Google Play — Achats intégrés</a></li>
+      </ul>
+
+      <h3>10. Contact</h3>
+      <p>
+        Pour toute question ou demande liée à la confidentialité, utilisez le
+        <a href="https://github.com/AnthonyQuattrochi/twistnlink-privacy/issues/new" rel="noopener noreferrer">formulaire public de contact du projet</a>.
+        N’y publiez aucune donnée sensible. Si votre demande comporte des informations
+        personnelles, demandez d’abord un canal de réponse privé.
+      </p>
+
+      <h3>11. Modifications</h3>
+      <p>
+        Cette politique peut être mise à jour si les fonctionnalités, les prestataires ou les
+        obligations légales évoluent. La date affichée en haut de la page indique sa dernière mise à jour.
+      </p>
+    </article>
+
+    <article class="policy" id="en" lang="en">
+      <h2>Privacy Policy</h2>
+
+      <p>
+        TwistNLink is a mobile game published by <strong>Anthony Quattrochi, trading as
+        Junito</strong> ("we", "us"). This policy applies to the Android version of TwistNLink.
+      </p>
+
+      <div class="notice">
+        The game does not send us your name, email address, contacts, photos, or precise GPS
+        location. Game progress is stored locally on your device. Third-party providers may,
+        however, process technical data to deliver advertising, record your privacy choices,
+        and handle purchases.
+      </div>
+
+      <h3>1. Data stored locally</h3>
+      <p>TwistNLink stores the information required to operate the game on your device:</p>
+      <ul>
+        <li>progress, levels, scores, gameplay statistics, and tutorial state;</li>
+        <li>energy, coins, gems, tickets, rewards, and purchased benefits;</li>
+        <li>language, sound, music, and vibration preferences;</li>
+        <li>purchase state and technical transaction identifiers used to prevent duplicate rewards;</li>
+        <li>privacy and ad-personalisation choices.</li>
+      </ul>
+      <p>
+        Junito does not receive this gameplay data on its own servers. It remains on the device
+        until you clear the app's data or uninstall the app.
+      </p>
+
+      <h3>2. Advertising and consent</h3>
+      <p>
+        The game uses <strong>Unity LevelPlay</strong> to display interstitial and rewarded-video
+        ads. The advertising network currently integrated is <strong>Unity Ads</strong>. Depending
+        on your region and choices, ads may be personalised or non-personalised.
+      </p>
+      <p>These advertising services may process data such as:</p>
+      <ul>
+        <li>IP address and approximate location inferred from it;</li>
+        <li>the Android advertising ID and other device- or app-related identifiers;</li>
+        <li>device model, operating system, language, country, and app version;</li>
+        <li>ad impressions, clicks, completed videos, and other ad interactions;</li>
+        <li>performance, security, frequency-capping, and fraud-prevention data.</li>
+      </ul>
+      <p>
+        Google User Messaging Platform (UMP) is used as the consent management platform. Where
+        required by law, it lets you accept, refuse, or manage purposes and partners. Refusing
+        personalisation does not necessarily prevent contextual or non-personalised ads, which
+        may still use essential technical data. You can reopen these choices from the game settings.
+      </p>
+
+      <h3>3. In-app purchases</h3>
+      <p>
+        Purchases are processed by <strong>Google Play</strong>. We do not receive your card number
+        or payment details. The game receives only the technical information required to validate
+        and restore a purchase, such as the purchased product, transaction status, purchase receipt,
+        and transaction identifier.
+      </p>
+
+      <h3>4. First-party analytics</h3>
+      <p>
+        The current version of TwistNLink does not send gameplay analytics events to a server run
+        by Junito. Advertising providers may still measure the operation and performance of their
+        own services as described above.
+      </p>
+
+      <h3>5. Sharing, sale, and purposes</h3>
+      <p>
+        We do not directly sell your personal data. Technical data may be shared with the providers
+        listed below and their partners solely for ad delivery and measurement, fraud prevention,
+        consent management, and purchase processing. Where required by law, this processing depends
+        on your consent choices.
+      </p>
+
+      <h3>6. Retention and deletion</h3>
+      <p>
+        You can delete TwistNLink's local data from Android settings ("Apps" → "TwistNLink" →
+        "Storage" → "Clear data") or by uninstalling the app. Third-party providers apply their own
+        retention periods and deletion procedures. Please refer to their policies below to exercise
+        your rights with them.
+      </p>
+
+      <h3>7. Your rights and choices</h3>
+      <p>
+        Depending on your country, you may have rights to access, correct, erase, object to, restrict,
+        or withdraw consent to the processing of personal data. Advertising choices can be reviewed
+        in TwistNLink's settings. You can also reset or delete the advertising ID in Android's privacy settings.
+      </p>
+
+      <h3>8. Children</h3>
+      <p>
+        TwistNLink does not intentionally request a child's name, email address, date of birth, or
+        contact details. If you believe a child has sent us personal data by mistake, please contact
+        us so that we can review the request.
+      </p>
+
+      <h3>9. Providers and applicable policies</h3>
+      <ul>
+        <li><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" rel="noopener noreferrer">Unity — Game Player and App User Privacy Policy</a></li>
+        <li><a href="https://unity.com/legal/cookie-policy" rel="noopener noreferrer">Unity — Cookie and Advertising Policy</a></li>
+        <li><a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a></li>
+        <li><a href="https://support.google.com/googleplay/answer/9037938" rel="noopener noreferrer">Google Play — In-app purchases</a></li>
+      </ul>
+
+      <h3>10. Contact</h3>
+      <p>
+        For privacy questions or requests, use the project's
+        <a href="https://github.com/AnthonyQuattrochi/twistnlink-privacy/issues/new" rel="noopener noreferrer">public contact form</a>.
+        Do not post sensitive data there. If your request contains personal information, first ask
+        for a private response channel.
+      </p>
+
+      <h3>11. Changes</h3>
+      <p>
+        We may update this policy when features, providers, or legal obligations change. The date at
+        the top of this page indicates the latest update.
+      </p>
+    </article>
+
+    <footer>
+      © 2026 Anthony Quattrochi / Junito · TwistNLink
+    </footer>
+  </main>
+</body>
+</html>
