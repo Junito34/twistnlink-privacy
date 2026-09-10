@@ -190,13 +190,14 @@
       <div class="meta" aria-label="Informations principales">
         <span class="pill">Application Android</span>
         <span class="pill">com.junito.twistnlink</span>
-        <span class="pill">Mise à jour : 8 septembre 2026</span>
+        <span class="pill">Mise à jour : 10 septembre 2026</span>
       </div>
     </header>
 
     <nav class="language-nav" aria-label="Langues">
       <a href="#fr">Version française</a>
       <a href="#en" lang="en">English version</a>
+      <a href="#account-deletion">Supprimer un compte</a>
     </nav>
 
     <article class="policy" id="fr">
@@ -209,11 +210,12 @@
       </p>
 
       <div class="notice">
-        Le jeu ne nous transmet pas votre nom, votre adresse électronique, vos contacts,
-        vos photos ou votre position GPS. La progression de jeu est enregistrée localement
-        sur votre appareil. Des prestataires tiers peuvent toutefois traiter certaines
-        données techniques pour diffuser des publicités, recueillir vos choix de
-        confidentialité et gérer les achats.
+        La connexion Google Play Games est facultative. Si vous l’utilisez, TwistNLink associe
+        votre progression à un identifiant de joueur Unity afin de la synchroniser dans le cloud
+        et d’afficher votre score dans le classement Chrono. Le jeu ne reçoit pas votre mot de
+        passe Google. Des prestataires tiers traitent également certaines données techniques
+        pour fournir ces services, diffuser des publicités, recueillir vos choix de confidentialité
+        et gérer les achats.
       </div>
 
       <h3>1. Données enregistrées localement</h3>
@@ -226,8 +228,10 @@
         <li>choix de confidentialité et de personnalisation publicitaire.</li>
       </ul>
       <p>
-        Ces données de jeu ne sont pas envoyées à un serveur exploité par Junito. Elles restent
-        sur l’appareil jusqu’à ce que vous effaciez les données de l’application ou la désinstalliez.
+        Sans connexion Google Play Games, ces données restent sur l’appareil. Après connexion,
+        la progression, les monnaies, l’avancement de campagne et des défis, ainsi que le meilleur
+        score Chrono personnel sont synchronisés avec Unity Gaming Services. Le classement Chrono
+        peut afficher le nom public du profil de jeu et le score des vingt meilleurs joueurs.
       </p>
 
       <h3>2. Publicités et consentement</h3>
@@ -263,11 +267,13 @@
         identifiant de transaction.
       </p>
 
-      <h3>4. Analytics et suivi propriétaire</h3>
+      <h3>4. Connexion, sauvegarde cloud et classement</h3>
       <p>
-        La version actuelle de TwistNLink n’envoie pas d’événements d’analytics de jeu à un
-        serveur exploité par Junito. Les prestataires publicitaires peuvent néanmoins mesurer
-        le fonctionnement et les performances de leurs propres services comme décrit plus haut.
+        Google Play Games authentifie le profil choisi. Unity Authentication crée alors un
+        identifiant de joueur propre à TwistNLink. Unity Cloud Save conserve la progression
+        synchronisée et Unity Leaderboards conserve le meilleur score Chrono et les données
+        nécessaires au classement. La connexion est facultative et le jeu principal reste
+        accessible sans compte connecté.
       </p>
 
       <h3>5. Partage, vente et finalités</h3>
@@ -279,13 +285,26 @@
         de vos choix de consentement.
       </p>
 
-      <h3>6. Conservation et suppression</h3>
+      <h3 id="account-deletion">6. Suppression du compte et des données</h3>
       <p>
-        Vous pouvez supprimer les données locales de TwistNLink depuis les réglages Android
+        Pour demander la suppression de votre compte TwistNLink et des données associées,
+        ouvrez le
+        <a href="https://github.com/Junito34/twistnlink-privacy/issues/new?title=Demande%20de%20suppression%20de%20compte%20TwistNLink" rel="noopener noreferrer">formulaire de demande de suppression</a>
+        et indiquez uniquement votre nom public Google Play Games. Ne publiez aucun mot de passe,
+        code de connexion, adresse ou donnée de paiement. Nous vous indiquerons un canal privé si
+        des informations supplémentaires sont nécessaires pour vérifier que le compte vous appartient.
+      </p>
+      <p>
+        Une demande vérifiée entraîne la suppression de l’identité joueur TwistNLink, de la
+        progression enregistrée dans Unity Cloud Save et du score associé dans le classement
+        Chrono. La demande est traitée sous 30 jours. Des sauvegardes techniques résiduelles
+        peuvent subsister jusqu’à 90 jours avant leur suppression définitive. Les justificatifs
+        de transaction que Google Play doit conserver restent soumis aux règles de Google.
+      </p>
+      <p>
+        Vous pouvez aussi effacer les données locales depuis les réglages Android
         (« Applications » → « TwistNLink » → « Stockage » → « Effacer les données ») ou en
-        désinstallant l’application. Les prestataires tiers appliquent leurs propres durées de
-        conservation et procédures de suppression. Pour exercer vos droits auprès d’eux,
-        consultez leurs politiques ci-dessous.
+        désinstallant l’application. Cela ne supprime pas à lui seul le compte ni les données cloud.
       </p>
 
       <h3>7. Vos droits et vos choix</h3>
@@ -336,10 +355,11 @@
       </p>
 
       <div class="notice">
-        The game does not send us your name, email address, contacts, photos, or precise GPS
-        location. Game progress is stored locally on your device. Third-party providers may,
-        however, process technical data to deliver advertising, record your privacy choices,
-        and handle purchases.
+        Google Play Games sign-in is optional. If you use it, TwistNLink links your progress to
+        a Unity player identifier so it can synchronize progress in the cloud and display your
+        Chrono score on the leaderboard. The game does not receive your Google password.
+        Third-party providers also process technical data to provide these services, deliver
+        advertising, record your privacy choices, and handle purchases.
       </div>
 
       <h3>1. Data stored locally</h3>
@@ -352,8 +372,10 @@
         <li>privacy and ad-personalisation choices.</li>
       </ul>
       <p>
-        Junito does not receive this gameplay data on its own servers. It remains on the device
-        until you clear the app's data or uninstall the app.
+        Without Google Play Games sign-in, this data remains on the device. After sign-in,
+        progress, currencies, campaign and challenge state, and the personal Chrono high score
+        are synchronized through Unity Gaming Services. The Chrono leaderboard may display the
+        public gaming profile name and score of the top twenty players.
       </p>
 
       <h3>2. Advertising and consent</h3>
@@ -385,11 +407,12 @@
         and transaction identifier.
       </p>
 
-      <h3>4. First-party analytics</h3>
+      <h3>4. Sign-in, cloud save, and leaderboard</h3>
       <p>
-        The current version of TwistNLink does not send gameplay analytics events to a server run
-        by Junito. Advertising providers may still measure the operation and performance of their
-        own services as described above.
+        Google Play Games authenticates the selected profile. Unity Authentication then creates
+        a TwistNLink player identifier. Unity Cloud Save stores synchronized progress, and Unity
+        Leaderboards stores the best Chrono score and ranking data. Sign-in is optional and the
+        core game remains available without a connected account.
       </p>
 
       <h3>5. Sharing, sale, and purposes</h3>
@@ -400,12 +423,23 @@
         on your consent choices.
       </p>
 
-      <h3>6. Retention and deletion</h3>
+      <h3 id="account-deletion-en">6. Account and data deletion</h3>
       <p>
-        You can delete TwistNLink's local data from Android settings ("Apps" → "TwistNLink" →
-        "Storage" → "Clear data") or by uninstalling the app. Third-party providers apply their own
-        retention periods and deletion procedures. Please refer to their policies below to exercise
-        your rights with them.
+        To request deletion of your TwistNLink account and associated data, open the
+        <a href="https://github.com/Junito34/twistnlink-privacy/issues/new?title=TwistNLink%20account%20deletion%20request" rel="noopener noreferrer">account deletion request form</a>
+        and provide only your public Google Play Games name. Never publish a password, sign-in code,
+        address, or payment information. We will provide a private channel if more information is
+        required to verify account ownership.
+      </p>
+      <p>
+        A verified request deletes the TwistNLink player identity, progress stored in Unity Cloud
+        Save, and the associated Chrono leaderboard score. Requests are processed within 30 days.
+        Residual technical backups may remain for up to 90 days before permanent deletion. Google
+        Play transaction records that Google must retain remain subject to Google's policies.
+      </p>
+      <p>
+        You can also clear local data from Android settings ("Apps" → "TwistNLink" → "Storage" →
+        "Clear data") or uninstall the app. This action alone does not delete the account or cloud data.
       </p>
 
       <h3>7. Your rights and choices</h3>
