@@ -190,7 +190,7 @@
       <div class="meta" aria-label="Informations principales">
         <span class="pill">Application Android</span>
         <span class="pill">com.junito.twistnlink</span>
-        <span class="pill">Mise à jour : 10 septembre 2026</span>
+        <span class="pill">Mise à jour : 27 septembre 2026</span>
       </div>
     </header>
 
@@ -212,7 +212,7 @@
       <div class="notice">
         La connexion Google Play Games est facultative. Si vous l’utilisez, TwistNLink associe
         votre progression à un identifiant de joueur Unity afin de la synchroniser dans le cloud
-        et d’afficher votre score dans le classement Chrono. Le jeu ne reçoit pas votre mot de
+        et d’afficher vos résultats dans les classements Chrono et Défi quotidien. Le jeu ne reçoit pas votre mot de
         passe Google. Des prestataires tiers traitent également certaines données techniques
         pour fournir ces services, diffuser des publicités, recueillir vos choix de confidentialité
         et gérer les achats.
@@ -230,15 +230,17 @@
       <p>
         Sans connexion Google Play Games, ces données restent sur l’appareil. Après connexion,
         la progression, les monnaies, l’avancement de campagne et des défis, ainsi que le meilleur
-        score Chrono personnel sont synchronisés avec Unity Gaming Services. Le classement Chrono
-        peut afficher le nom public du profil de jeu et le score des vingt meilleurs joueurs.
+        score Chrono personnel sont synchronisés avec Unity Gaming Services. Les classements Chrono
+        et Défi quotidien peuvent afficher votre pseudonyme public, votre rang et votre score ou temps.
+        Le Défi quotidien conserve également les tentatives, résultats archivés, statistiques et reçus
+        de récompenses afin de calculer les classements et d’éviter les doubles versements.
       </p>
 
       <h3>2. Publicités et consentement</h3>
       <p>
         Le jeu utilise <strong>Unity LevelPlay</strong> pour afficher des publicités
-        interstitielles et des vidéos récompensées. Le réseau actuellement intégré est
-        <strong>Unity Ads</strong>. Selon votre région et vos choix, les publicités peuvent être
+        interstitielles et des vidéos récompensées. Les réseaux intégrés sont
+        <strong>Unity Ads</strong> et <strong>Google AdMob</strong>. Selon votre région et vos choix, les publicités peuvent être
         personnalisées ou non personnalisées.
       </p>
       <p>Ces services publicitaires peuvent notamment traiter :</p>
@@ -286,6 +288,7 @@
       </p>
 
       <h3 id="account-deletion">6. Suppression du compte et des données</h3>
+      <p>Le traitement manuel de la demande couvre aussi le Défi quotidien : pseudonyme, scores, statistiques, registre protégé de récompenses et références identifiantes dans les archives et bilans. Une donnée devant être conservée pour une obligation légale ou une contestation de transaction est limitée à cette finalité et vous est signalée lors du traitement.</p>
       <p>
         Pour demander la suppression de votre compte TwistNLink et des données associées,
         ouvrez le
@@ -357,7 +360,7 @@
       <div class="notice">
         Google Play Games sign-in is optional. If you use it, TwistNLink links your progress to
         a Unity player identifier so it can synchronize progress in the cloud and display your
-        Chrono score on the leaderboard. The game does not receive your Google password.
+        Chrono and Daily Challenge results on the leaderboards. The game does not receive your Google password.
         Third-party providers also process technical data to provide these services, deliver
         advertising, record your privacy choices, and handle purchases.
       </div>
@@ -374,14 +377,14 @@
       <p>
         Without Google Play Games sign-in, this data remains on the device. After sign-in,
         progress, currencies, campaign and challenge state, and the personal Chrono high score
-        are synchronized through Unity Gaming Services. The Chrono leaderboard may display the
+        are synchronized through Unity Gaming Services. Chrono and Daily leaderboards may display the
         public gaming profile name and score of the top twenty players.
       </p>
 
       <h3>2. Advertising and consent</h3>
       <p>
         The game uses <strong>Unity LevelPlay</strong> to display interstitial and rewarded-video
-        ads. The advertising network currently integrated is <strong>Unity Ads</strong>. Depending
+        ads. The integrated advertising networks are <strong>Unity Ads</strong> and <strong>Google AdMob</strong>. Depending
         on your region and choices, ads may be personalised or non-personalised.
       </p>
       <p>These advertising services may process data such as:</p>
@@ -411,7 +414,9 @@
       <p>
         Google Play Games authenticates the selected profile. Unity Authentication then creates
         a TwistNLink player identifier. Unity Cloud Save stores synchronized progress, and Unity
-        Leaderboards stores the best Chrono score and ranking data. Sign-in is optional and the
+        Leaderboards stores Chrono and Daily Challenge scores, times, ranks and public player names.
+        Cloud Code processes Daily attempts and results; Cloud Save retains reward receipts and statistics
+        to prevent duplicate grants. Archived Daily rankings may retain past results. Sign-in is optional and the
         core game remains available without a connected account.
       </p>
 
@@ -424,6 +429,7 @@
       </p>
 
       <h3 id="account-deletion-en">6. Account and data deletion</h3>
+      <p>Manual processing also covers Daily Challenge data: public name, scores, statistics, protected reward records and identifying references in archives and summaries. Any record retained for a legal obligation or transaction dispute is restricted to that purpose and explained when processing the request.</p>
       <p>
         To request deletion of your TwistNLink account and associated data, open the
         <a href="https://github.com/Junito34/twistnlink-privacy/issues/new?title=TwistNLink%20account%20deletion%20request" rel="noopener noreferrer">account deletion request form</a>
